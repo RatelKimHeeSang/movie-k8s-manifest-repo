@@ -349,7 +349,6 @@ metadata:
     service.beta.kubernetes.io/oci-load-balancer-shape-flex-min: "10"
     service.beta.kubernetes.io/oci-load-balancer-shape-flex-max: "100"
 spec:
-  loadBalancerIP: 130.162.151.221
   externalTrafficPolicy: Local
   ipFamilies:
   - IPv4
