@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: jet-movie-msa-ui
-          image: icn.ocir.io/cnbkloa0ci62/movie/jet-movie-msa-ui:ddc68edfb7ccf0ab0ea591f49cf4369e2dbce3e2
+          image: icn.ocir.io/cnbkloa0ci62/movie/jet-movie-msa-ui:1f9625a5882786c8642ea30cefb27e341b667dc9
           imagePullPolicy: Always
           ports:
             - name: http
