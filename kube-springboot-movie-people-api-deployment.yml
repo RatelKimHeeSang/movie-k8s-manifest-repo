@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-movie-people-api
-          image: icn.ocir.io/cnbkloa0ci62/movie/springboot-movie-people-api:
+          image: icn.ocir.io/cnbkloa0ci62/movie/springboot-movie-people-api:latest
           imagePullPolicy: Always
           ports:
             - name: http
