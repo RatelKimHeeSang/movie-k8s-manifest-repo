@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: helidon-movie-api-mp
-          image: icn.ocir.io/cnbkloa0ci62/movie/helidon-movie-api-mp:latest
+          image: icn.ocir.io/cnbkloa0ci62/movie/helidon-movie-api-mp:27d01e2a0f30bec9550fe49836f1c109331567af
           imagePullPolicy: Always
           ports:
             - name: http
